@@ -1,21 +1,5 @@
-import java.util.ArrayList;
-//class dict {
-//    String id;
-//    float easting;
-//    float northing;
-//    float longi;
-//    float lati;
-//
-//    dict(ArrayList l, String id,float northing, float longi, float lati){
-//        this.id=id;
-//        this.northing=northing;
-//        this.longi=longi;
-//        this.lati=lati;
-//
-//    }}
-
 public class Coordinates {
-    String[][] c;
+    String[][] c;//coordinates
     public  Coordinates() {
         //Cell ID Easting Northing Long Lat
      String[][] coordinates =
